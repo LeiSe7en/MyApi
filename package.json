@@ -1,0 +1,24 @@
+{
+  "name": "MyApi",
+  "version": "1.0.0",
+  "description": "It is a demo to pratice building a Blog by NodeJS+MongoDB+HTML",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeiSe7en/MyApi.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeiSe7en/MyApi/issues"
+  },
+  "homepage": "https://github.com/LeiSe7en/MyApi#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {}
+}
