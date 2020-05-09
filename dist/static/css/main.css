@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html{
+	font-size: 16px;
+  padding: 0;
+  margin: 0;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+body{
+  background-color: #f4f4f4;
+  overflow-x: hidden;
+}
+.btn-blue {
+  @apply .bg-blue-100 .text-white .font-bold .py-2 .px-4 .border-b-4 .bg-blue-700 .rounded
+}
+
+.btn-blue:hover {
+  @apply .bg-blue-100 .border-blue-500
+}
+h1{
+	font-size: 40px;
+	font-weight: 700;
+}
+.container {
+	width: 100%;
+	margin: 0 auto;
+}
+
+@media only screen and (min-width: 961px) {
+  .container, .content {
+    width: 960px;
+    margin: 0 auto;
+  }
+}
